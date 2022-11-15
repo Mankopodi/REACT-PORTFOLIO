@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import './Navbar.css'
+import Home from "../Home/Home";
+import About from "../About/About.js";
+
 
 export class Navbar extends Component {
   render() {
@@ -50,11 +53,12 @@ export class Navbar extends Component {
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col  justify-center">
             <main>
-              <app-home id="home"></app-home>
-              <app-about id="about"></app-about>
-              <app-resume id="resume"></app-resume>
-              <app-portfolio id="portfolio"></app-portfolio>
-              <app-contact id="contact"></app-contact>
+              <div id="home"> <Home></Home> </div>
+              <div id="About"><About></About></div>
+              {/* <div id="Resume"><Resume></Resume></div>
+              <div id="Portfolio"><Portfolio></Portfolio></div>
+              <div id="Contact"><Contact></Contact></div> */}
+
             </main>
           </div>
 
@@ -64,7 +68,7 @@ export class Navbar extends Component {
               <div className="down">
                 <div className="avatar flex justify-center avt">
                   <div className="w-24 rounded-full">
-                    <img src="../../../assets/images/profile.jpeg" />
+                    <img src={require('../../assets/profile.jpeg')} alt={'no profile'}/>
                   </div>
                 </div>
                 <div className="flex justify-center font-bold text-2xl named">

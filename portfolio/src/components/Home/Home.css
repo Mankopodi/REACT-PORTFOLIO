@@ -1,13 +1,13 @@
 .b{
     height: 117vh;
-    // width: 100%;
+    /* width: 100%; */
 }
 
-.main {
+/* .main {
     margin-top: 800px;
-}
+} 
 
-@media (max-width: 600px) {
+ @media (max-width: 600px) {
     .b{
         height: 140vh;
         width: 100%;
@@ -15,4 +15,4 @@
     .main{
         margin-top: 1300px;
     }
-}
+} */

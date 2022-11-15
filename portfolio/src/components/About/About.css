@@ -1,0 +1,18 @@
+i{
+    background-color: rgba(0, 98, 189, 0.147);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    color: white;
+}
+
+span{
+    padding-left: 10px;
+}
+i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    color: grey;
+}

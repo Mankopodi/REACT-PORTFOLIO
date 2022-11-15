@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
-    <html data-theme='dark'>
-    <div className="App" >
+
+    <div data-theme='dark' >
       <Navbar></Navbar>
     </div>
-    </html>
+ 
   );
 }
 
