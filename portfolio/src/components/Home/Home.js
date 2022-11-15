@@ -25,7 +25,7 @@ export class Home extends Component {
                 <h1 className="mb-5 text-4xl font-bold">
                   Maloma Mankopodi Kgopotso
                 </h1>
-                <p className="mb-5">
+                <p className="mb-8">
                   I'm a Full Stack Developer, UI/UX Designer, Network Engineer.{" "}
                 </p>
                 <button

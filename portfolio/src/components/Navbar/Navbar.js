@@ -28,7 +28,7 @@ export class Navbar extends Component {
         <div className="flex justify-end">
           <label
             htmlFor="my-drawer-2"
-            className="btn btn-ghost drawer-button lg:hidden"
+            className="btn btn-ghost drawer-button lg:hidden nav"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export class Navbar extends Component {
                   </a>
                 </div>
 
-                <li>
+                <li id="scroll">
                   <a href="#home" onClick={() => homes()}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +149,7 @@ export class Navbar extends Component {
                     Home
                   </a>
                 </li>
-                <li onClick="document.getElementById('about').scrollIntoView({behavior:'smooth',block:'start'})">
+                <li id="scroll">
                   <a href="#about" onClick={() => Abouts()}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ export class Navbar extends Component {
                     About
                   </a>
                 </li>
-                <li>
+                <li id="scroll">
                   <a href="#resume" onClick={() => resumes()}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +192,7 @@ export class Navbar extends Component {
                     Resume
                   </a>
                 </li>
-                <li onClick="document.getElementById('portfolio').scrollIntoView({behavior:'smooth',block:'start'})">
+                <li id="scroll">
                   <a href="#portfolio" onClick={() => portfolios()}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ export class Navbar extends Component {
                     Portfolio
                   </a>
                 </li>
-                <li onClick="document.getElementById('contact').scrollIntoView({behavior:'smooth',block:'start'})">
+                <li id="scroll">
                   <a href="#contact" onClick={() => contacts()}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

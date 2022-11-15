@@ -25,7 +25,7 @@ export class About extends Component {
           />
           <div className="">
             <h1 className="text-5xl font-bold">
-              Full Stack Developer, UI/UX Designer and Network Engineer.
+              Full Stack Developer, UI/UX Designer & Network Engineer.
             </h1>
             <div className="flex lg:flex-row sm:flex-row-1 space-x-8 justify-center text-left mt-8 mr-8">
               <ul>
