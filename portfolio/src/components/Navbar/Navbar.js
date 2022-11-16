@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import './Navbar.css'
 import Home from "../Home/Home";
 import About from "../About/About.js";
+import Resume from "../Resume/Resume.js"
+import Contact from "../Contact/Contact.js"
 
 
 export class Navbar extends Component {
@@ -55,9 +57,9 @@ export class Navbar extends Component {
             <main>
               <div id="home"> <Home></Home> </div>
               <div id="About"><About></About></div>
-              {/* <div id="Resume"><Resume></Resume></div>
-              <div id="Portfolio"><Portfolio></Portfolio></div>
-              <div id="Contact"><Contact></Contact></div> */}
+              <div id="Resume"><Resume></Resume></div>
+              {/* <div id="Portfolio"><Portfolio></Portfolio></div> */}
+              <div id="Contact"><Contact></Contact></div>
 
             </main>
           </div>
