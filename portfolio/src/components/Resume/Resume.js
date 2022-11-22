@@ -3,9 +3,9 @@ import './Resume.css'
 
 export class Resume extends Component {
   render() {
-    function scroll() {
-        document.getElementById('resume').scrollIntoView({behavior:'smooth', block:'start'})
-      }
+    // function scroll() {
+    //     document.getElementById('resume').scrollIntoView({behavior:'smooth', block:'start'})
+    //   }
     return (
       <section>
           <div className=".min-h-screen bg-base-100 mb-6">
