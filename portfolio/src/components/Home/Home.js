@@ -4,7 +4,7 @@ import profile from "../../assets/images/profile.jpeg";
 
 function Home() {
     return (
-      <section>
+ 
         <div  id='home' className="main">
           <div
             className="hero min-h-screen b"
@@ -33,7 +33,6 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
     );
   }
 
