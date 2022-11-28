@@ -65,3 +65,6 @@ main{
     border-radius: 100%;
     color: white;
 }
+.social a{
+    font-size: 2em;
+}

@@ -3,12 +3,10 @@ import './Resume.css'
 
 export class Resume extends Component {
   render() {
-    function scroll() {
-        document.getElementById('resume').scrollIntoView({behavior:'smooth', block:'start'})
-      }
+
     return (
       <section>
-          <div className=".min-h-screen bg-base-100 mb-6">
+          <div id='resume' className=".min-h-screen bg-base-100 mb-6">
     <h1 className="text-5xl font-bold flex justify-start mb-3 ">Resume</h1>
     <div className="flex flex-col w-full lg:flex-row">
         <div className="grid flex-grow h-full card bg-base-300 rounded-box">

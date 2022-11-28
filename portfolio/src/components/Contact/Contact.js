@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Contact extends Component {
-  render() {
+function Contact(){
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div id='contact' className="hero min-h-screen bg-base-200">
         <div className="max-w-2xl">
             <h1 className="flex justify-start font-bold text-5xl">Contact</h1>
             <div className="hero-content flex flex-col lg:flex-row">
@@ -36,7 +35,7 @@ export class Contact extends Component {
     
                         </i>
                         <span className="font-bold">Email:</span>
-                        <span className="cont">kgopotsomaloma@icloud.com</span>
+                        <a href="mailto:kgopotsomaloma@icloud.com" className="cont">kgopotsomaloma@icloud.com</a>
                     </div>
                     <div className="flex flex-row cnt">
                         <i>
@@ -54,7 +53,7 @@ export class Contact extends Component {
     
                         </i>
                         <span className="font-bold">Call:</span>
-                        <span className="cont">+27660374452</span>
+                        <a href="tel:+27660374452" className="cont">+27660374452</a>
                     </div>
     
                 </div>
@@ -88,6 +87,6 @@ export class Contact extends Component {
     </div>
     )
   }
-}
+
 
 export default Contact

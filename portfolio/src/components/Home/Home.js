@@ -1,22 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Home.css";
-import profile from "../../assets/image1.jpeg";
+import profile from "../../assets/images/profile.jpeg";
 
-export class Home extends Component {
-  render() {
-    function scroll() {
-      document.getElementById('about').scrollIntoView({behavior:'smooth', block:'start'})
-    }
-
+function Home() {
     return (
       <section>
-        <div className="main">
+        <div  id='home' className="main">
           <div
             className="hero min-h-screen b"
             style={{
               backgroundImage: `url(${profile})`,
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "0px 0px",
             }}
           >
             <div className="hero-overlay bg-opacity-60"></div>
@@ -31,7 +25,7 @@ export class Home extends Component {
                 <button
                   className="btn btn-primary"
                   href="#about"
-                onClick={() => scroll()}
+               
                 >
                   Get Started
                 </button>
@@ -42,6 +36,5 @@ export class Home extends Component {
       </section>
     );
   }
-}
 
 export default Home;
