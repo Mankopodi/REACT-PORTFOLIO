@@ -8,15 +8,14 @@ import react from '../../assets/skills/react-js-icon.svg'
 import typescript from '../../assets/skills/typescript-programming-language-icon.svg'
 import bootstrap from '../../assets/skills/bootstrap-4-icon.svg'
 import mysql from '../../assets/skills/mysql-icon.svg'
-
 import tailwind from '../../assets/skills/tailwind-css-icon.svg'
 import java from '../../assets/skills/java-programming-language-icon.svg'
 import python from '../../assets/skills/python-programming-language-icon.svg'
 import linux from '../../assets/skills/linux-ubuntu-icon.svg'
 import git from '../../assets/skills/git-icon.svg'
 import microsoftoffice from '../../assets/skills/office-365-icon.svg'
-import Cpp from '../../assets/skills/c-plus-plus-programming-language-icon.svg';
-import postgresSQL from '../../assets/skills/postgresql-icon.svg'
+import cpp from '../../assets/skills/c-plus-plus-programming-language-icon.svg';
+import postgresql from '../../assets/skills/postgresql-icon.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -25,16 +24,16 @@ export const skillsImage = (skill) => {
         case 'html':
             return html;
 
-        case 'Cpp':
-            return Cpp    
+        case 'cpp':
+            return cpp    
         case 'docker':
             return docker;
         
         case 'css':
             return css;
 
-        case 'postgresSQL':
-            return postgresSQL;
+        case 'postgresql':
+                return postgresql;
 
         case 'angular':
             return angular;
