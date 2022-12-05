@@ -16,8 +16,10 @@ import git from '../../assets/skills/git-icon.svg'
 import microsoftoffice from '../../assets/skills/office-365-icon.svg'
 import cpp from '../../assets/skills/c-plus-plus-programming-language-icon.svg';
 import postgresql from '../../assets/skills/postgresql-icon.svg'
+import {SiPacker } from 'react-icons/si';
 
 export const skillsImage = (skill) => {
+    const packet = SiPacker
     const skillID = skill.toLowerCase();
     switch (skillID) {
         
@@ -75,6 +77,9 @@ export const skillsImage = (skill) => {
 
         case 'linux':
             return linux;
+
+        case 'packet':
+            return packet     
     
         default:
             break;

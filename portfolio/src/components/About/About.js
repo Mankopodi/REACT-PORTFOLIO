@@ -6,15 +6,15 @@ export class About extends Component {
     
     return (
       <div id='about' className="min-h-screen bg-base-100">
-        <h1 className="text-5xl font-bold mb-6">About</h1>
-        <p>
+        <h1 className="text-5xl font-bold mb-6 ml-6">About</h1>
+        <p className="margin ml-6">
           I am determined, dedicated and passionate with a strong desire to fix,
           improve and solve the challenges that i am confronted with. New
-          challanges motivates me. I like to be invilved and i am not afraid to
+          challanges motivates me. I like to be involved and i am not afraid to
           question and express my views while being faithful. To become the best
           leader in any position that i will uphold. My career goal is to
           continue learning and developing my expertise and to work even harder
-          in which ever department i pursue. my Vision is to bring commitment,
+          in which ever department i pursue. my vision is to bring commitment,
           faithfulness, integrity and competence to the workplace.
         </p>
         <div className="hero-content flex-col lg:flex-row">
@@ -27,7 +27,7 @@ export class About extends Component {
             <h1 className="text-5xl font-bold">
               Full Stack Developer, UI/UX Designer & Network Engineer.
             </h1>
-            <div className="flex lg:flex-row sm:flex-row-1 space-x-8 justify-center text-left mt-8 mr-8">
+            <div className="flex lg:flex-row sm:flex-row-1 space-x-8 text-left mt-8 mr-8">
               <ul>
               <li>Degree: National Diploma</li>
                 <li>City: Johannesburg</li>

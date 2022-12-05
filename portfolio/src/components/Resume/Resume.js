@@ -6,7 +6,7 @@ export class Resume extends Component {
     return (
     
           <div id='resume' className=".min-h-screen bg-base-100 mb-6">
-    <h1 className="text-5xl font-bold flex justify-start mb-3 ">Resume</h1>
+    <h1 className="text-5xl font-bold mb-6 ml-6">Resume</h1>
     <div className="flex flex-col w-full lg:flex-row">
         <div className="grid flex-grow h-full card bg-base-300 rounded-box">
             <div className="card-body">

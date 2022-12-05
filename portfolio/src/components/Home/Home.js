@@ -22,13 +22,13 @@ function Home() {
                 <p className="mb-8">
                   I'm a Full Stack Developer, UI/UX Designer, Network Engineer.{" "}
                 </p>
-                <button
+                {/* <button
                   className="btn btn-primary"
                   href="#about"
                
                 >
                   Get Started
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

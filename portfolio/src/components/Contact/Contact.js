@@ -21,7 +21,7 @@ function Contact(){
     
                         </i>
                         <span className="font-bold">Location:</span>
-                        <span className="cont">15529 Indlanzi Street Vosloorus Ext 16 1475</span>
+                        <span className="cont">Johannesburg</span>
                     </div>
                     <div className="flex flex-row cnt">
                         <i>
@@ -35,7 +35,7 @@ function Contact(){
     
                         </i>
                         <span className="font-bold">Email:</span>
-                        <a href="mailto:kgopotsomaloma@icloud.com" className="cont">kgopotsomaloma@icloud.com</a>
+                        <a href="mailto:kgopotsomaloma@icloud.com" className="cont">kgopotsomaloma170@gmail.com</a>
                     </div>
                     <div className="flex flex-row cnt">
                         <i>
